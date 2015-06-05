@@ -57,8 +57,29 @@ body {
   color: #a8d55e; }
 
 /*section four*/
-.quotes-bg {
-  height: 300px; }
+.quotes {
+  height: 400px;
+  background-color: #161717; }
+
+.indicate li {
+  display: block; }
+
+#quote-carousel {
+  padding-top: 80px; }
+
+#quote-carousel p {
+  color: #e1e1e1;
+  font-family: 'Open Sans' , serif;
+  font-size: 15px; }
+
+#quote-carousel h4 {
+  color: #e1e1e1;
+  font-size: 22px;
+  font-family: 'Open Sans' , serif; }
+
+.indicate {
+  position: relative;
+  left: 140%; }
 
 /*end of section four*/
 /*secton-five*/
@@ -68,6 +89,27 @@ body {
 #myCarousel2 {
   background-color: #1f1e1f;
   height: 900px; }
+  #myCarousel2 .carousel-indicators {
+    left: 0;
+    margin-left: 0;
+    width: 100%; }
+    #myCarousel2 .carousel-indicators li {
+      width: 24%;
+      height: auto;
+      border-width: 3px 0 0 0;
+      border-style: solid;
+      border-color: #ffffff;
+      border-radius: 0;
+      color: #ffffff;
+      text-indent: initial;
+      background-color: transparent;
+      text-align: left;
+      text-transform: uppercase;
+      font-weight: 300; }
+      #myCarousel2 .carousel-indicators li.active {
+        color: #a5d25b;
+        border-color: #a5d25b;
+        background-color: transparent; }
 
 .carousel2 img {
   padding-top: 150px; }
@@ -172,7 +214,7 @@ body {
 
 .footer-logo img {
   padding-top: 130px;
-  padding-left: 220px; }
+  padding-right: 200px; }
 
 .foot-cright p:hover {
   text-decoration: none !important; }
