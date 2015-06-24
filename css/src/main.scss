@@ -1,77 +1,106 @@
-$primary-color: #000000;
-$primary-green-color: #a5d25b;
-$secondary-green-color: #9ec956;
-$secondary-color: #ffffff;
-$lighter-secondary-color: #1f1e1f;
+$primary-color: #000000; //black
+$primary-green-color: #a5d25b; //light-green
+$secondary-green-color: #9ec956; //green
+$secondary-color: #ffffff; //white
+$lighter-secondary-color: #1f1e1f; //dar-grey
 
 body {
-	background-color: $primary-color;
 	overflow-x:hidden;
+	background-color: $primary-color;
+	position: relative;
 
-	#logo1 {
-		width: 60px;
-		height: 20px;
-	}
-	.header-left {
-		background-color: $primary-green-color;
-		height: 50px;
+	#navigation{
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 100;
+		#logo1 {
+			width: 60px;
+			height: 20px;
+		}
+		.header-left {
+			background-color: $primary-green-color;
+			height: 50px;
+		}
+
+		.header-left img{
+			display: inline;
+		}
+
+		.logo-left {
+			padding-left: 150px;
+			padding-top: 5px;
+		}
+
+		.logo-right {
+			padding-left: 0px;
+			padding-top: 5px;
+		}
+		.header-right {
+			background-color: #282828;
+		}
+
+		.logobg {
+			height: 50px;
+			background-color: #A3DD00;
+			margin-left: 0;
+		}
+
+		.navbg {
+			background-color: #1c1819;
+		}
+
+		.nav>li>a {
+			color: $secondary-color;
+		}
+		.navbar{
+			margin-left: 450px;
+		}
+
+		/*  .nav .navbar-nav{
+					color: $secondary-color;
+				}  */
+		.nav-buttons {
+			display: inline;
+			font-size: 18px;
+			left: 250px;
+		}
+	 //   .quotes {
+		// 	margin-left: -30px;
+		// 	margin-right: -30px;
+		// 	position: fixed;
+		// 	z-index: 1;
+		// } 
+
+		.carousel-one{
+			.car1 {
+				margin: 0 0;
+				padding-right: 0;
+				padding-left: 0;
+			}
+			.carousel-indicators {
+				padding-right: 350px;
+			}
+		}
 	}
 
-	.header-left img{
-		display: inline;
-	}
+#quote-carousel {
+	height: 250px;
 
-	.logo-left {
-		padding-left: 150px;
-		padding-top: 5px;
-	}
-
-	.logo-right {
-		padding-left: 0px;
-		padding-top: 5px;
-	}
-	.header-right {
-		background-color: #282828;
-	}
-
-	.logobg {
-		height: 50px;
-		background-color: #A3DD00;
-		margin-left: 0;
-	}
-
-	.navbg {
-		background-color: #1c1819;
-	}
-
-	.nav>li>a {
-		color: $secondary-color;
-	}
-	.navbar{
-		margin-left: 450px;
-	}
-
-	.nav .navbar-nav{
-		color: $secondary-color;
-	}
-
-	.car1 {
-		margin: 0 auto;
-	}
-
-/*section four*/
 	.quotes {
-		height: 400px;
+		padding-top: -50px;
 		background-color: #161717;
+		display: inline;
 	}
 	.indicate li {
 		display: block;
 	}
 	#quote-carousel {
-		padding-top: 80px;
+		padding-top: 0px;
 	}
 	#quote-carousel p{
-		color: #e1e1e1;
+		color: #ECF0F1;
 		font-family: 'Open Sans' , serif;
 		font-size: 15px;
 	}
@@ -79,15 +108,15 @@ body {
 		color: #e1e1e1;
 		font-size: 22px;
 		font-family: 'Open Sans' , serif;
+		font-weight: 500;
 	}
 	.indicate {
 		position: relative;
 		left: 140%;
+		padding-top: 50px;
 	}
-
-	/*end of section four*/
-
-	/*secton-five*/
+}
+	
 	.carousel2 {
 		background-color: $lighter-secondary-color;
 	}
@@ -95,11 +124,13 @@ body {
 	#myCarousel2 {
 		background-color: $lighter-secondary-color;
 		height: 900px;
+		font-size: 20px;
 
 		.carousel-indicators {
 			left: 0;
 			margin-left: 0;
 			width: 100%;
+			padding-bottom: 70px;
 
 			li {
 				width: 24%;
@@ -140,9 +171,6 @@ body {
 		margin: 0 auto;
 	}
 
-	/*end of secton-five*/
-
-	/*section six*/
 
 	.colu-left {
 		margin-left: 12% !important;
@@ -195,30 +223,27 @@ body {
 	}
 
 	.text-download h3{
-		font-family: 'Bitter', serif;
+		font-family: 'Roboto Condensed', sans-serif;
 		line-height: 25px;
-		font-size: 18px;
+		font-size: 22px;
 		font-weight: 500;
 		padding-bottom: 12px;
 	}
 
 	.text-sed p{
-		font-family: 'Open Sans' , serif;
-		font-size: 15px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 16px;
 		padding-bottom: 15px;
 		color: $secondary-color;
 	}
 
 	.text-proin p {
-		font-family: 'Open Sans' , serif;
-		font-size: 15px;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 16px;
 		padding-bottom: 15px;
 		color: $secondary-color;
 	}
 
-	/* end of section six */
-
-	/*start of seventh section*/
 	.section-seven {
 		background-color: #e1e1e1;
 		height: 500px;
@@ -249,7 +274,8 @@ body {
 
 	.footer-logo img {
 		padding-top: 130px;
-		padding-right: 200px;
+		position: relative;
+		right: 100px; 
 	}
 
 	.foot-cright p:hover{
@@ -260,7 +286,7 @@ body {
 		padding-left: 430px;
 		color: #c5c9cc;
 	}
-	/*end of seventh section*/
+
 
 	.last-rectangle{
 		background-color: #28292d;
