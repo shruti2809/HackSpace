@@ -63,22 +63,13 @@ body {
       margin-left: 450px;
     }
 
-    /*  .nav .navbar-nav{
-          color: $secondary-color;
-        }  */
     .nav-buttons {
       display: inline;
       font-size: 18px;
       left: 250px;
     }
   }
-    //   .quotes {
-    //  margin-left: -30px;
-    //  margin-right: -30px;
-    //  position: fixed;
-    //  z-index: 1;
-    // } 
-
+  
 #quote-carousel {
   height: 250px;
   padding-top: 0px;
@@ -96,14 +87,14 @@ body {
   h4{
     margin-left: 4.5em;
     padding-top: 40px;
-    color: #e1e1e1;
+    color: #787D80;
     font-size: 22px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
   }
 
   p{
-    color: #e1e1e1;
+    color: #787D80;
     font-family: 'PT Sans Narrow', sans-serif;;
     font-size: 14px;
     margin-left: 7em;
@@ -258,14 +249,14 @@ body {
   }
 
   .text-sed p{
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     padding-bottom: 15px;
     color: $secondary-color;
   }
 
   .text-proin p {
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     padding-bottom: 15px;
     color: $secondary-color;

@@ -7,10 +7,7 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    z-index: 100;
-    /*  .nav .navbar-nav{
-    			color: $secondary-color;
-    		}  */ }
+    z-index: 100; }
     body #navigation #logo1 {
       width: 60px;
       height: 20px; }
@@ -52,12 +49,12 @@ body {
     body #quote-carousel h4 {
       margin-left: 4.5em;
       padding-top: 40px;
-      color: #e1e1e1;
+      color: #787D80;
       font-size: 22px;
       font-family: 'PT Sans Narrow', sans-serif;
       font-weight: 700; }
     body #quote-carousel p {
-      color: #e1e1e1;
+      color: #787D80;
       font-family: 'PT Sans Narrow', sans-serif;
       font-size: 14px;
       margin-left: 7em; }
@@ -160,12 +157,12 @@ body {
     font-weight: 500;
     padding-bottom: 12px; }
   body .text-sed p {
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     padding-bottom: 15px;
     color: #ffffff; }
   body .text-proin p {
-    font-family: 'Sintony', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
     padding-bottom: 15px;
     color: #ffffff; }
